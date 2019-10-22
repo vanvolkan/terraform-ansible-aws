@@ -2,11 +2,11 @@
 
 This is a terraform and ansible IaC example that deploys the infrastructure below.
 
-![alt text](https://github.com/vanvolkan/terraform-ansible-aws/infrastructure.png "Infrastructure")
+![alt text](infrastructure.png "Infrastructure")
 
 The high level process is as follows:
 
-![alt text](https://github.com/vanvolkan/terraform-ansible-aws/build.png "Process")
+![alt text](build.png "Process")
 
 
 # Packages used:
