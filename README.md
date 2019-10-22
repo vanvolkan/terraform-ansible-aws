@@ -11,10 +11,11 @@ The high level process is as follows:
 
 # Packages used:
 
-## ansible 2.8.5
-## terraform 0.12
+ - ansible 2.8.5
+ - terraform 0.12
+ - aws-cli 1.16.261
 
-# How to execute
+# How to execute:
 
 You will need an ssh-key generated to be able to allow the script to deploy to your aws instance.
 
@@ -23,5 +24,5 @@ Execute `terraform init` for initial setup,
 followed by `terraform plan` which will display information about the deployment.
 If all looks good execute the deployment with the command `terraform apply`.
 
-To terminate the infrastructure that was deployed execute the comman `terraform destroy`
+To terminate the infrastructure that was deployed execute the command `terraform destroy`
 
